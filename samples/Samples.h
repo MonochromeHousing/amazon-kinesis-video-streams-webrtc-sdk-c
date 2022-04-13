@@ -76,6 +76,8 @@ typedef struct {
     volatile ATOMIC_BOOL recreateSignalingClient;
     volatile ATOMIC_BOOL connected;
     BOOL useTestSrc;
+    PCHAR videoUrl;
+    PCHAR audioUrl;
     ChannelInfo channelInfo;
     PCHAR pCaCertPath;
     PAwsCredentialProvider pCredentialProvider;
